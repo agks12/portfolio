@@ -4,10 +4,10 @@ import mysql.connector
 
 # MySQL 연결 설정 자신sql정보 삽입
 db_connection = mysql.connector.connect(
-    host="127.0.0.1",
-    user="root",
-    password="0000",
-    database="cook"
+    host="",
+    user="",
+    password="",
+    database=""
 )
 # 커서 생성
 cursor = db_connection.cursor()
